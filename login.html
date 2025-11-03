@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - VoxiFruits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page-body">
+    <div class="login-container">
+        <h2>Login to VoxiFruits</h2>
+        <form id="login-form"> <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+        </form>
+        <p class="form-switcher">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@picovoice/web-voice-processor@4.0.2/dist/iife/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@picovoice/porcupine-web@3.0.1/dist/iife/index.js"></script>
+    <script src="login.js"></script>  -->
+<script src="picovoice-processor.js"></script>
+    <script src="picovoice-porcupine.js"></script>
+    <!-- <script
+  src="https://cdn.jsdelivr.net/npm/@picovoice/web-voice-processor@4.0.2/dist/iife/index.js"
+  onload="console.log('WebVoiceProcessor loaded!')">
+</script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/@picovoice/porcupine-web@3.0.1/dist/iife/index.js"
+  onload="console.log('PorcupineWeb loaded!')">
+</script> -->
+
+    <!-- <script src="https://unpkg.com/@picovoice/web-voice-processor@1.1.0/dist/web_voice_processor.js"></script>
+    <script src="https://unpkg.com/@picovoice/porcupine-web@3.0.1/dist/porcupine_web.js"></script> -->
+    <script src="app.js" defer></script>
+<script src="login.js" defer></script>
+    <script src="voice2.js" defer></script>
+
+</body>
+</html>

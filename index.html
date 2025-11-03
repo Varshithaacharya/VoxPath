@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voxi Fruits - Exotic Tropical Delights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="welcome-bar" class="welcome-bar">
+        <span>✨ Voice navigation is enabled! Try saying <strong>"Hey Luma"</strong> to get started.</span>
+        <button id="dismiss-bar-btn" class="dismiss-btn">&times;</button>
+    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html">VoxiFruits 🍎</a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#products">Products</a>
+            <a href="login.html">Login</a>
+        </nav>
+        <div class="header-icons">
+            <a href="cart.html" class="cart-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Experience the Taste of Paradise</h1>
+        <p>Fresh & Exotic Tropical Fruits, Delivered to Your Doorstep.</p>
+    </section>
+
+    <main id="products">
+        <h2>Our Exotic Collection</h2>
+        <div class="product-grid" id="product-grid">
+            </div>
+    </main>
+
+    <div id="details-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modal-title">Fruit Details</h2>
+            <p id="modal-description">Origin information goes here.</p>
+        </div>
+    </div>
+    
+    <div class="chatbot-container">
+        <div id="chat-window" class="chat-window">
+            <div class="chat-header">Voxi Assistant</div>
+            <div id="chat-body" class="chat-body">
+                <div class="chat-message bot">Hello! Ask me about shipping, returns, or our products.</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Type a message...">
+                <button id="chat-send">Send</button>
+            </div>
+        </div>
+        <button id="chat-bubble" class="chat-bubble">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 VoxiFruits. All rights reserved.</p>
+    </footer>
+
+   <!-- <script src="https://cdn.jsdelivr.net/npm/@picovoice/web-voice-processor@4.0.2/dist/iife/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@picovoice/porcupine-web@3.0.1/dist/iife/index.js"></script> -->
+      <!--<script src="app.js"></script>
+    <script src="voice.js"></script>
+    <script src="chatbot.js"></script> -->
+
+
+    <!-- <script
+  src="https://cdn.jsdelivr.net/npm/@picovoice/web-voice-processor@4.0.2/dist/iife/index.js"
+  onload="console.log('WebVoiceProcessor loaded!')">
+</script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/@picovoice/porcupine-web@3.0.1/dist/iife/index.js"
+  onload="console.log('PorcupineWeb loaded!')">
+</script> -->
+
+
+    <!-- <script src="https://unpkg.com/@picovoice/web-voice-processor@1.1.0/dist/web_voice_processor.js"></script>
+    <script src="https://unpkg.com/@picovoice/porcupine-web@3.0.1/dist/porcupine_web.js"></script> -->
+    <script src="app.js" defer></script>
+    <script src="chatbot.js" defer></script>
+    <script src="picovoice-processor.js"></script>
+    <script src="picovoice-porcupine.js"></script>
+    <script src="voice2.js"></script>
+</body>
+</html>
